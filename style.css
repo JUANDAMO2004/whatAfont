@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face{
+    src:url(fonts/Royalacid_o.ttf);
+    font-family: Royal-Acid;
+}
+@font-face{
+src:url(fonts/FightingSpiritbold.otf);
+    font-family: FightingSpiritbold;
+}
+
+@font-face{
+    src:url(fonts/Road_Rage.otf);
+    font-family: Road-Rage;
+}
+html{
+    background-color:dimgray;
+    background: linear-gradient(to bottom, darkslategrey,black);
+}
+h1 {
+    font-family: Royal-Acid;
+    background-color: darkorange;
+    text-shadow: 0 2px 2px #FF0000, -2px 5px 0 #ff7f00, -6px 10px 0 #ffff00;
+    padding: 15px;
+}
+.mask{
+    background-image: url(images/skulls.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 15%;
+    position: relative;
+}
+#header {
+    color: antiquewhite;
+    font-family:FightingSpiritbold;
+    text-shadow:0 10px 5px crimson;
+    font-size: xx-large;
+    position: relative;
+    top: -140px;
+    right: 130px;
+}
+.lyrics p{
+    font-family:Road-Rage;
+}
+#title {
+    color: crimson;
+    margin: 2.5px;
+    padding-bottom: 10px;
+    text-shadow: 0 5px 5px brown;
+    font-family: FightingSpiritbold;
+}
+#title2{
+    background-color: darkorange;
+    color: crimson;
+    text-shadow: 0 5px 5px brown;
+    padding: 3%;
+    font-family: FightingSpiritbold;
+    box-shadow: inset 0px 5px 10px 0px rgba(230, 5, 136, 0.7);
+}
+.lyrics{
+    margin-left: 5%;
+    margin-top: 5%;
+    background: linear-gradient(to bottom, yellow, darkorange,red);
+    border-radius: 10px;
+    margin-right:55%;
+    padding:2.5%;
+    box-shadow: 0px 5px 10px 0px rgba(165, 154, 3, 0.856); 
+}
+.lyrics:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 40px 2px rgba(165, 154, 3, 0.856);
+    transition: transform 0.3s;
+}
+.text-box{
+    margin-top: 5%;
+    background: linear-gradient(to bottom,mediumpurple ,darkslateblue,midnightblue);
+    width:600px;
+    height: 420px;
+    top: -1650px;
+    left: 700px;
+    position:relative;
+    box-shadow: inset 0px 5px 10px 0px rgba(230, 5, 136, 0.7);
+}
+.text-box:hover{
+    transform: translateY(-5px);
+    box-shadow: inset 0px 10px 40px 2px rgba(230, 5, 136, 0.7);
+    transition: transform 0.3s;
+}
+.text-box section p:hover{
+    font-style: italic;
+}
+.text-box section p {
+    font-family: 'Gabarito', cursive;
+    text-align: justify;
+    padding:15px;
+    color:whitesmoke;
+    line-height: 20px;
+  }
+
+.text-box section .list {
+    float:right;
+    margin-right: 100px;
+    margin-top: 20px;
+    background-color: khaki;
+    font-family: 'Gabarito', cursive;
+    border-radius: 5px;
+    color: black;
+    padding: 5%;
+}
+#title3{
+    background-color: darkorange;
+    color: crimson;
+    text-shadow: 0 5px 5px brown;
+    font-family: FightingSpiritbold;
+    padding: 3%;
+    box-shadow: inset 0px 10px 40px 2px rgba(230, 5, 136, 0.7);
+}
+.song{
+    width:600px;
+    height: 450px;
+    margin-top: 5%;
+    top: -1700px;
+    left: 700px;
+    position:relative;
+    background: linear-gradient(to bottom,mediumpurple ,darkslateblue,midnightblue);
+    box-shadow: inset 0px 5px 10px 0px rgba(230, 5, 136, 0.7);
+}
+.song:hover{
+    transform: translateY(-5px);
+    box-shadow: inset 0px 10px 40px 2px rgba(230, 5, 136, 0.7);
+    transition: transform 0.3s;
+}
+iframe{
+    margin: 3%;
+}
+.text-box section img:hover {
+    scale:1.5;
+    border: solid purple;
+}
+
